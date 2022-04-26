@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7CF43A2C2818421200258C9B /* TGirlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43A2B2818421200258C9B /* TGirlApp.swift */; };
-		7CF43A2E2818421200258C9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43A2D2818421200258C9B /* ContentView.swift */; };
+		7C398210281843EC00A8237B /* TGirlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C39820F281843EC00A8237B /* TGirlApp.swift */; };
 		7CF43A302818421600258C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF43A2F2818421600258C9B /* Assets.xcassets */; };
 		7CF43A332818421600258C9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF43A322818421600258C9B /* Preview Assets.xcassets */; };
+		7CF43A3A2818424900258C9B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF43A392818424900258C9B /* Launch Screen.storyboard */; };
+		7CF43A3C2818424E00258C9B /* modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43A3B2818424E00258C9B /* modifiers.swift */; };
+		7CF43A442818426A00258C9B /* AddItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43A402818426900258C9B /* AddItem.swift */; };
+		7CF43A452818426A00258C9B /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43A412818426900258C9B /* ListRowView.swift */; };
+		7CF43A462818426A00258C9B /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43A422818426900258C9B /* ToDoList.swift */; };
+		7CF43A472818426A00258C9B /* InfoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43A432818426900258C9B /* InfoList.swift */; };
+		7CF43A4A2818426E00258C9B /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43A492818426E00258C9B /* ListViewModel.swift */; };
+		7CF43A4D2818427300258C9B /* ItemModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF43A4C2818427200258C9B /* ItemModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C39820F281843EC00A8237B /* TGirlApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGirlApp.swift; sourceTree = "<group>"; };
 		7CF43A282818421200258C9B /* TGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CF43A2B2818421200258C9B /* TGirlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TGirlApp.swift; sourceTree = "<group>"; };
-		7CF43A2D2818421200258C9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CF43A2F2818421600258C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CF43A322818421600258C9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CF43A392818424900258C9B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7CF43A3B2818424E00258C9B /* modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modifiers.swift; sourceTree = "<group>"; };
+		7CF43A402818426900258C9B /* AddItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItem.swift; sourceTree = "<group>"; };
+		7CF43A412818426900258C9B /* ListRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		7CF43A422818426900258C9B /* ToDoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
+		7CF43A432818426900258C9B /* InfoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoList.swift; sourceTree = "<group>"; };
+		7CF43A492818426E00258C9B /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		7CF43A4C2818427200258C9B /* ItemModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +65,13 @@
 		7CF43A2A2818421200258C9B /* TGirl */ = {
 			isa = PBXGroup;
 			children = (
-				7CF43A2B2818421200258C9B /* TGirlApp.swift */,
-				7CF43A2D2818421200258C9B /* ContentView.swift */,
+				7C39820F281843EC00A8237B /* TGirlApp.swift */,
+				7CF43A3B2818424E00258C9B /* modifiers.swift */,
+				7CF43A4B2818427200258C9B /* Models */,
+				7CF43A482818426E00258C9B /* ViewModels */,
+				7CF43A3F2818426900258C9B /* ToDoListView */,
 				7CF43A2F2818421600258C9B /* Assets.xcassets */,
+				7CF43A392818424900258C9B /* Launch Screen.storyboard */,
 				7CF43A312818421600258C9B /* Preview Content */,
 			);
 			path = TGirl;
@@ -65,6 +83,33 @@
 				7CF43A322818421600258C9B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CF43A3F2818426900258C9B /* ToDoListView */ = {
+			isa = PBXGroup;
+			children = (
+				7CF43A402818426900258C9B /* AddItem.swift */,
+				7CF43A412818426900258C9B /* ListRowView.swift */,
+				7CF43A422818426900258C9B /* ToDoList.swift */,
+				7CF43A432818426900258C9B /* InfoList.swift */,
+			);
+			path = ToDoListView;
+			sourceTree = "<group>";
+		};
+		7CF43A482818426E00258C9B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7CF43A492818426E00258C9B /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7CF43A4B2818427200258C9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7CF43A4C2818427200258C9B /* ItemModels.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF43A3A2818424900258C9B /* Launch Screen.storyboard in Resources */,
 				7CF43A332818421600258C9B /* Preview Assets.xcassets in Resources */,
 				7CF43A302818421600258C9B /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +183,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CF43A2E2818421200258C9B /* ContentView.swift in Sources */,
-				7CF43A2C2818421200258C9B /* TGirlApp.swift in Sources */,
+				7CF43A4D2818427300258C9B /* ItemModels.swift in Sources */,
+				7CF43A472818426A00258C9B /* InfoList.swift in Sources */,
+				7CF43A462818426A00258C9B /* ToDoList.swift in Sources */,
+				7CF43A4A2818426E00258C9B /* ListViewModel.swift in Sources */,
+				7CF43A3C2818424E00258C9B /* modifiers.swift in Sources */,
+				7C398210281843EC00A8237B /* TGirlApp.swift in Sources */,
+				7CF43A442818426A00258C9B /* AddItem.swift in Sources */,
+				7CF43A452818426A00258C9B /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +325,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,6 +355,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -2,16 +2,22 @@
 //  TGirlApp.swift
 //  TGirl
 //
-//  Created by Darya Zhitova on 26.04.2022.
+//  Created by Darya Zhitova on 10.09.2021.
 //
 
 import SwiftUI
 
 @main
 struct TGirlApp: App {
+   
+   @StateObject var listViewModel: ListViewModel = ListViewModel()
+   
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           NavigationView
+           {
+              ToDoList()
+           }.environmentObject(listViewModel)
         }
     }
 }
